@@ -1,0 +1,59 @@
+ .FTitle {
+    text-align: center;
+    margin: 10; /* Remove default margin for the heading */
+  }
+
+.faculty-item{
+  display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Set the background color */
+    border-radius: 5px;
+}
+.column-display{
+  flex-direction: column;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .FSearch {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #2980b9;
+  }
+  .invite-button {
+    /* display: inline-block; */
+    position: relative;
+    margin-right: 0;
+    /* justify-content: flex-start; */
+    /* margin-right: 5px; */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

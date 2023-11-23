@@ -1,0 +1,37 @@
+.publication-container {
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Style project titles and descriptions */
+.PaperName {
+    text-align: left;
+    /* Align project titles to the left */
+    margin: 0;
+    /* Remove default margin */
+    font-weight: bold;
+    /* Make titles bold */
+    font-size: 20px;
+    /* Adjust font size as needed */
+    padding: 5px;
+}
+
+.paperDesc {
+    padding: 5px;
+}
+
+.publication-box {
+    border: 1px solid #ccc;
+    /* Add a border around each project box */
+    padding: 20px;
+    /* Add some padding for spacing */
+    margin: 10px;
+    /* Adjust margin as needed */
+    background-color: #f0f0f0;
+    /* Background color for the project box */
+    border-radius: 5px;
+    /* Rounded corners for the project box */
+    text-align: left;
+    /* Align project content to the left within the box */
+}

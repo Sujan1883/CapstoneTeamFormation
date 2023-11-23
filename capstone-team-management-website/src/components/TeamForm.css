@@ -1,0 +1,53 @@
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.submitbutton {
+  margin: 80px; /* Add space between input groups */
+  margin-top: 50px;
+}
+
+.username{
+    padding:20px;
+}
+
+.teamname{
+    padding:20px;
+}
+
+.domain{
+    padding:20px;
+}
+
+.username label,.teamname label,.domain label{
+    display:block;
+}
+
+.username input[type="text"],.teamname input[type="text"],.domain input[type="text"]{
+  width: 200px; /* Adjust the input field width as needed */
+}
+.member-input input[type="text"] {
+    margin-bottom: 10px; /* Adjust the margin to control the spacing between member inputs */
+    width:200px;
+  }
+.members{
+    padding:20px;
+    
+}
+.narrow-member-input input[type="text"] {
+    width: 200px; /* Set the width for member inputs in Add Member mode */
+}
+.AddMember{
+    margin:30px;
+}
+.form-box {
+  border: 1px solid #ccc; /* Add a border around the form */
+  padding: 20px; /* Add some padding for spacing */
+  margin: 10px; /* Adjust margin as needed */
+  background-color: #f0f0f0; /* Background color for the box */
+  border-radius: 10px; /* Rounded corners for the box */
+}

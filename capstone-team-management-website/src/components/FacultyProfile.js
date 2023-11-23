@@ -1,37 +1,9 @@
 import React from 'react';
 import './Profile.css';
-import defaultPhoto from '../images/mypic.png';
-import NoteContext from '../context/NoteContext';
-import {useContext} from 'react';
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-import { UserContext } from '../App';
+import defaultPhoto from '../images/MyPhtoto.jpeg';
 
-const About = () => {
-  const a=useContext(NoteContext);
-  var lName = a .state.username;
-  const { state, dispatch } = useContext(UserContext);
-  dispatch({ type: 'User', payload: true });
-
-  const [userFetch, setUserFetch] = useState([]);
-  useEffect(() => {
-  const fetchProfile = async () => {
-    try {
-      // Use the faculty name from the context to make the API request
-      const response = await axios.get(`http://localhost:5000/api/fetchprofile/${lName}`);
-      if (response.data.success) {
-        setUserFetch(response.data.userFetch);
-      } else {
-        console.error('Error fetching user det:', response.data.message);
-      }
-    } catch (error) {
-      console.error('Error fetching user dets:', error);
-    }
-  };
-  fetchProfile();
-}, [lName]); // Include facultyState.fullname as a dependency
-console.log("User Det" ,userFetch);
-
+const FacultyProfile = () => {
+  // Function to display the selected image
   function displayImage(input) {
     const profileImage = document.getElementById('profile-image');
     if (input.files && input.files[0]) {
@@ -42,7 +14,7 @@ console.log("User Det" ,userFetch);
       reader.readAsDataURL(input.files[0]);
     }
   }
- 
+
   // Function to trigger the file input click event
   function openFileInput() {
     const fileInput = document.getElementById('photo-upload');
@@ -84,20 +56,17 @@ console.log("User Det" ,userFetch);
       </div>
       <hr className="separator" />
       <div className="profile-details">
-      {userFetch.map((user) => (
-            <>
-              <p className='Name'><strong>Name : </strong>{user.username}</p>
-              <p className='Email'><strong>Email: </strong>{user.email}</p>
-              <p className='MNo'><strong>Mobile No:</strong>{user.mobileNo}</p>
-              <p className='Role'><strong>Role:</strong>{user.role}</p>
-              <p className='Userid'><strong>User ID:</strong>{user.userid}</p>
-              {/* Include other user details */}
-            </>
-          ))}
+        <p className='Name'><strong>Name : </strong> Sumi</p>
+        <p className='Name'><strong>Username : </strong> Sujan_x.Sumi.x</p>
+        <p className='Email'><strong>Email: </strong>sujan@example.com</p>
+        <p className='Age'><strong>Age:</strong> 32</p>
+        <p className='Domain'><strong>Domain:</strong> Wifey</p>
+        <p className='Domain'><strong>Experience:</strong> 5</p>
+        <p className='MNo'><strong>Mobile No:</strong> 99923876189</p>
       </div>
     </div>
     </div>
   );
 };
 
-export default About;
+export default FacultyProfile;

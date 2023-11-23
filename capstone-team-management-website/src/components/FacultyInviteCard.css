@@ -1,0 +1,56 @@
+/* styles.css */
+.team-invites-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    /* Set the background color */
+    border-radius: 5px;
+    /* Add rounded corners */
+}
+
+.team-name{
+    text-align: left;
+        /* Align project titles to the left */
+        margin: 0;
+        /* Remove default margin */
+        font-weight: bold;
+        /* Make titles bold */
+        font-size: 20px;
+        /* Adjust font size as needed */
+        /* padding: 10px; */
+}
+.team-id{
+    font-size: 12px;
+    font-weight: bold;
+}
+.team-members{
+    font-size: 12px;
+}
+.team-info {
+    flex: 1;
+}
+
+.button-container {
+    display: flex;
+}
+
+.accept-button {
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.decline-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border: 2px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}

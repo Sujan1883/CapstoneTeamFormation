@@ -1,0 +1,37 @@
+/* styles.css */
+.student-card {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    /* Set the background color */
+    border-radius: 5px;
+    /* Add rounded corners */
+}
+ 
+.student-info {
+    flex: 1;
+}
+
+.button-container {
+    display: flex;
+}
+
+.accept-button {
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.decline-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

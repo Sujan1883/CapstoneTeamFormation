@@ -1,0 +1,87 @@
+.teams-container {
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+}
+/* Style project titles and descriptions */
+.teamName {
+    text-align: left;
+    /* Align project titles to the left */
+    margin: 0;
+    /* Remove default margin */
+    font-weight: bold;
+    /* Make titles bold */
+    font-size: 20px;
+    /* Adjust font size as needed */
+    padding: 10px;
+}
+
+.teamId{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Proj {
+    text-align: left;
+    /* Align descriptions to the left */
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;;
+    /* Remove default margin */
+}
+
+.ProjDesc {
+    text-align: left;
+    /* Align descriptions to the left */
+    margin: 0;
+    padding: 10px;
+    ;
+    /* Remove default margin */
+}
+
+.project-box {
+    /* display:flex; */
+    border: 1px solid #ccc;
+    /* Add a border around each project box */
+    padding: 20px;
+    /* Add some padding for spacing */
+    margin: 10px;
+    /* Adjust margin as needed */
+    background-color: #f0f0f0;
+    /* Background color for the project box */
+    border-radius: 5px;
+    /* Rounded corners for the project box */
+    text-align: left;
+    /* Align project content to the left within the box */
+}
+
+.spacebtw{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.view-button {
+    display: block;
+    background-color: #007BFF;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    /* Adjust the top position to your preference */
+    right: 10px;
+    /* Adjust the right position to your preference */
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+    /* Hover color */
+}

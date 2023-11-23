@@ -1,0 +1,23 @@
+/* Footer.css */
+.footer {
+    background-color: rgb(26, 23, 23);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the social icons from Font Awesome or your chosen icon library */

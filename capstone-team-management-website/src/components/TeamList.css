@@ -1,0 +1,68 @@
+/* In your CSS file, e.g., TeamInfo.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff; /* Adjust the background color as needed */
+    color: #fff;
+  }
+  
+  .search-bar {
+      margin: 20px 0;
+      text-align: center;
+      width:1350px;
+    }
+  
+  
+    .SearchText input[type="text"] {
+      padding: 8px;
+      width: 1200px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  
+    .SearchButton {
+      padding: 5px 20px;
+      background-color: #3686ee; /* Adjust the button's background color */
+      color: #fff;
+      border: none;
+    }
+  
+    .create-team-button {
+      display: inline-block;
+      padding: 10px 20px; /* Adjust the padding as needed */
+      background-color: #318b46; /* Adjust the button's background color */
+      color: #fff; /* Adjust the text color */
+      text-decoration: none;
+      border: none;
+      border-radius: 5px; /* Add rounded corners */
+      cursor: pointer;
+      transition: background-color 0.3s; /* Add a hover effect */
+    }
+    
+  /* In TeamInfo.css */
+.team-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.slots {
+  display: flex;
+}
+
+.slot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.green {
+  background-color: #4caf50; /* Green color when available */
+}
+
+.red {
+  background-color: #f44336; /* Red color when not available */
+}

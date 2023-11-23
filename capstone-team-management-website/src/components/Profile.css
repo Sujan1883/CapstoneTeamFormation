@@ -1,0 +1,116 @@
+.coverr{
+  background-color: rgb(191, 210, 224);
+  padding-top: 60px;
+}
+
+.profile-container {
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* Center the content vertically */
+      align-items: center;
+      /* Center the content horizontally */
+      background-color: #f0f0f0;
+      /* Add your desired background color */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+      /* Add a box shadow */
+      border-radius: 8px;
+      padding: 20px;
+      /* Adjust padding as needed */ 
+      text-align: center;
+      max-width: 1000px;
+      max-height: 1000px;
+      margin: 0 auto;
+      padding:50px;
+      /* margin-top: 40px; */
+    /* background-color: #ffdcdc;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      max-width: 400px; */
+      /* margin: 0 auto; */
+
+    /* background-color: #ffdcdc;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 100px; */ 
+  }
+  
+  .profile-photo {
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* Center the content vertically */
+      align-items: center;
+      /* Center the content horizontally */
+      text-align: center;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      /* background-color: #fff; */
+      /* Add your desired background color */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      /* Add a box shadow */
+      border-radius: 100%;
+      /* Adjust border-radius as needed */
+  }
+  
+  .photo-label {
+    cursor: pointer;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    /* border: 2px solid #fff; */
+  }
+  
+  #profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .edit-photo-button {
+    margin-bottom:-20%;
+    margin-top: 5%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: #2a2a35;
+    color: #fff;
+    padding: 6px 10px;
+    cursor: pointer;
+    
+  }
+  
+  
+  .profile-details {
+    text-align: left;
+      margin-top: 0;
+      margin-left: 0;
+    
+  }
+  
+  .Name,.Email,.Role,.Userid,.MNo{
+    padding:10px;
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .separator {
+    width: 100%;
+    height: 2px; /* Adjust the thickness as needed */
+    background-color: black; /* Adjust the color as needed */
+    margin: 50px 0; /* Adjust the margin as needed */
+    border: none;
+  }
